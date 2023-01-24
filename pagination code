@@ -1,0 +1,39 @@
+<!DOCTYPEhtml>
+
+<html>
+<head>
+<title></title>
+
+
+
+</head>
+<style type="text/css">
+.pagination{padding:0 10px;border:2px double black;text-align:center;}
+.container{display:inline-block;border:1px solid black;/*remove border later*/position:relative;margin-top:50%;margin-left:33.33%;width:32vw;}
+.pagination>li{list-style-type:none;display:inline;}
+.pagination>li>a{text-decoration:none;color:blue;}
+.active{background:green;color:white;!important}
+.pagination>li>a:hover{background:green;color:red;}
+.pagination>li{border-right:1px solid black;}
+.pagination>li:last-child{border:none;}
+</style>
+
+
+
+<body>
+
+
+<div class="container"   >
+<ul class="pagination">
+    <li><a href="#" class="active">《</a></li>
+    <li><a href="http://www.google.com">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">》</a></li>
+</ul>
+</div>
+</body>
+
+
+
+</html>
